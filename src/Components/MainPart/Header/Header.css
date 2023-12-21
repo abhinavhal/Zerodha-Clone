@@ -1,0 +1,25 @@
+.dashboard-header {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.left-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-header{
+    display: flex;
+    justify-content: space-between;
+}
+.right-header-contents{
+    display: flex;
+}
+
+.right-right-header{
+    display: flex;
+}
+
+.right-right-header img{
+  height: 50px;
+  width: 50px;
+}
