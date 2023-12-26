@@ -1,21 +1,57 @@
-.watchlist-container{
-    background-color: rgb(200, 139, 59);
-    width: 29%;
-    height: 100%;
+.watchlist-container {
+  background-color: rgb(200, 139, 59);
+  width: 29%;
+  height: 93vh;
 }
 
-.watchlist-search{
-    height: 6vh;
-    background-color: white;
-    align-items: center;
+.watchlist-search {
+  height: 6vh;
+  background-color: white;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.watchlist-contents {
+  height: 83.5vh;
+}
+
+.watchlist-search input {
+  border: none;
+  font-size: 16px;
+  width: 80%;
+  height: 100%;
+}
+
+.watchlist-lists {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  height: 3.5vh;
+  background-color: pink;
+  width: 29%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#list-contents{
     display: flex;
-    justify-content: space-evenly;
+    width: 25%;
+    justify-content: space-around;
+    cursor: pointer;
+
 }
 
-.watchlist-search input{
-    border: none;
-    font-size: 16px;
-    width: 80%;
-    height: 100%;
+.content-hr{
+    height: 7vh;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: space-evenly;
 
+}
+
+.content-hr li{
+    font-size: 20px;
+    margin: 7px;
 }
