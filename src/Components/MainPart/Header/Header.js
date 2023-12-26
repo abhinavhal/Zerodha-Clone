@@ -2,7 +2,7 @@ import React from "react";
 import { SiZerodha } from "react-icons/si";
 import Abhi_Photo from "./Abhi_Photo.jpg";
 import { IoNotificationsOutline } from "react-icons/io5";
-import './Header.css'
+import "./Header.css";
 
 const Header = () => {
   return (
@@ -17,16 +17,18 @@ const Header = () => {
           <SiZerodha />
         </div>
 
-        <div className="right-header-contents">
-          <h3>Dashboard</h3>
-          <h3>Holdings</h3>
-          <h3>Funds</h3>
-        </div>
+        <div className="right-headerpart">
+          <div className="right-header-contents">
+            <h3>Dashboard</h3>
+            <h3>Holdings</h3>
+            <h3>Funds</h3>
+          </div>
 
-        <div className="right-right-header">
-          <IoNotificationsOutline />
-          <img src={Abhi_Photo} alt="" />
-          <h3>Abhishek</h3>
+          <div className="right-right-header">
+            <IoNotificationsOutline id='notification-icon' />
+            <img src={Abhi_Photo} alt="" />
+            <h3>Abhishek</h3>
+          </div>
         </div>
       </div>
     </div>
